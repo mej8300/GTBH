@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3  Date: Mandag '28en' 28. Oktober 2013 18.39.56
+#encoding utf-8
+#
+# 1066-NE555P
+#
+DEF 1066-NE555P U 0 40 Y Y 1 L N
+F0 "U" 0 30 60 H V L CNN
+F1 "1066-NE555P" 0 -830 60 H V L CNN
+F2 "andrew/b6d66" 0 300 60 H I L CNN
+F3 "https://circuithub.com/parts/TI/NE555P/documents" 0 400 60 H I L CNN
+F4 "1066" 0 500 60 H I L CNN "CircuitHubID"
+F5 "Willi/dlgf6" 0 600 60 H I L CNN "symbolURN"
+F6 "e87d4c9805397bafd444094686ae7508df7e270f" 0 700 60 H I L CNN "symbolRevision"
+F7 "3ef715fbfad57cb97b1e8e5415f6d2fb73734d65" 0 800 60 H I L CNN "footprintRevision"
+DRAW
+S 0 0 1200 -800 1 1 0 N
+X GND 1 600 -1000 200 U 50 50 1 1 W
+X Trigger 2 -200 -200 200 R 50 50 1 1 W
+X Output 3 -200 -600 200 R 50 50 1 1 W
+X Reset 4 400 200 200 D 50 50 1 1 W
+X Control 5 1400 -700 200 L 50 50 1 1 W
+X Threshold 6 1400 -400 200 L 50 50 1 1 W
+X Discharge 7 1400 -100 200 L 50 50 1 1 W
+X VCC 8 700 200 200 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
